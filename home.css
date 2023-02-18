@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #ffffff;
+}
+
+#btn{
+    background-color: rebeccapurple; 
+    color: white; 
+    border-color: rgb(46, 0, 173); 
+    padding: 3px;
+    border-radius: 4%;
+}
+
+.nav {
+  padding: 0 50px;
+  height: 100px;
+  background: rebeccapurple;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+.logo {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  text-decoration: none;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+.link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.link:hover {
+  text-shadow: rgb(255, 255, 255) 2px 0 20px;
+  text-decoration: underline;
+  color: beige;
+  transition: all 0.7s ease;
+}
