@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <link rel="icon" href="gays.ico"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href=
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity=
+    "sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <title>MindTask</title>
+</head>
+<body>
+    <nav class="nav">
+        <a href="mytasks.html" class="logo" style="text-decoration: none; margin-bottom: 15px;" ><strong>MINDTASKS</strong></a>
+        <ul class="menu">
+            <li class="menu-li"><a href="mytasks.html" class="link" style="font-size: 40px;">my tasks</a></li>   
+            <li class="menu-li"><a href="mydrafts.html" class="link" style="font-size: 20px;">my drafts</a></li>   
+            <li class="menu-li"><a href="contact.html" class="link" style="font-size: 25px;" >contact</a></li>
+        </ul>
+  
+        <div class="container my-3">
+            <div class="card">
+                <div class="card-body">
+                    <div class="form-group">
+                        <textarea placeholder="Enter your task here..." class="form-control" 
+                            id="addTxt" rows="3">
+                        </textarea>
+                    </div>
+                    <button class="btn btn-primary" 
+                        id="addBtn" style="background-color:rebeccapurple">
+                        Add task
+                    </button> 
+                      <label style="margin-left: 20px; " for="date"> <strong>Deadline:</strong></label>
+                    <input style="margin-left: 4px;" type="date" id="date">
+                    <span style="color: white; ">elwnrkv</span>
+                    <button id="btn">Do you want to be notified?</button> 
+                    
+                    
+                </div>
+            </div>
+            <hr >
+            <h1>Your tasks</h1>
+            <hr>
+            
+            <div id="tasks" class=
+            "row container-fluid"> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 
