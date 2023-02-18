@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Barlow', sans-serif;
+    background-image: url("bgi.jpg")
+}
+.nav{
+    padding: 0 50px;
+    height: 100px;
+    background: rebeccapurple;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    font-size: 30px;
+}
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+}
+.host {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.link{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px; 
+}
+#first {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+.all {
+
+    height: 100%;
+    width: 100%;
+}
+.title {
+    text-align: center;
+    text-shadow: rgb(255, 255, 255) 2px 0 20px;
+}
+.fox {
+    height: 100%;
+    width: 100%;
+}
+.card {
+    border-radius: 5%;
+    color: white;
+    padding: 0;
+    margin: 80px 20%;
+    height: 480px;
+    width: 900px;
+    background: rgb(50, 49, 49);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit {
+    margin-top: 40px;
+    margin-right:25px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.insta {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.insta:hover {
+    transition: all 0.5s linear;
+    text-shadow: rebeccapurple 2px 0 20px;
+    text-decoration: underline;
+}
+.link:hover{
+    text-shadow: rgb(255, 255, 255) 2px 0 20px;
+    text-decoration: underline;
+    color: beige;
+    transition: all 0.7s ease;
+}
+.mind {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 20px 20px;
+}
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title {
+    margin: 20px 20px;
+}
+.about {
+    margin: 0 30px ;
+}
+.ins {
+    height: 50px;
+    width: 70px;
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.instag {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+.tgs {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.pop {
+    color: rebeccapurple;
+}
